@@ -13,8 +13,7 @@ import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
 export class AppComponent {
   title = 'Pokedex';
   pokemonList = [
-    { name: 'Bulbasaur', type: 'Grass/Poison', imageUrl: 'URL_TO_BULBASAUR_IMAGE' },
-    { name: 'Charmander', type: 'Fire', imageUrl: 'URL_TO_CHARMANDER_IMAGE' },
-    { name: 'Squirtle', type: 'Water', imageUrl: 'URL_TO_SQUIRTLE_IMAGE' }
+    { name: 'Pikachu', type: 'Electric', imageUrl: './assets/Pikachu.png', power: 74, damage: 76, attacks: 'Thunder bolt', health: 74, friendly: 78, color1: 'yellow'},
+    { name: 'Rattata', type: 'Normal', imageUrl: './assets/Rattata.png', power: 74, damage: 76, attacks: 'Drain', health: 74, friendly: 78, color: 'grey'}
   ];
 }

@@ -1,5 +1,9 @@
 
+
 .cabecera{
   display: flex;
   justify-content: center;
+}
+.logoPokedex{
+  width: 200px;
 }

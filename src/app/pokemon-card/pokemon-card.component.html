@@ -1,7 +1,27 @@
+<div class="cuerpo">
+  <div class="pokemon-card-container {{ pokemon.color }}">
 
-<div class="pokemon-card">
-  <img [src]="pokemon.imageUrl" alt="{{ pokemon.name }}">
-  <h2>{{ pokemon.name }}</h2>
-  <p>Type: {{ pokemon.type }}</p>
+    <div class="pokemon-card">
+      <div class="background">
+        <img src="{{ pokemon.imageUrl }}" alt="{{ pokemon.name }}">
+      </div>
+  
+      <div class="content">
+        <h1 class="pokemon-name">{{ pokemon.name }}</h1>
+        <span class="pokemon-type">{{ pokemon.type }}</span>
+  
+        <div class="pokemon-stats">
+          <p>Power : {{ pokemon.power }}</p>
+          <p>Damge : {{ pokemon.damage }}</p>
+          <p>Attacks : {{ pokemon.attacks }}</p>
+          <p>Health : {{ pokemon.health }}</p>
+          <p>Friendly : {{ pokemon.friendly }}</p>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div> 
 </div>
+
 
