@@ -13,7 +13,7 @@ import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
 export class AppComponent {
   title = 'Pokedex';
   pokemonList = [
-    { name: 'Pikachu', type: 'Electric', imageUrl: './assets/Pikachu.png', power: 74, damage: 76, attacks: 'Thunder bolt', health: 74, friendly: 78, color1: 'yellow'},
-    { name: 'Rattata', type: 'Normal', imageUrl: './assets/Rattata.png', power: 74, damage: 76, attacks: 'Drain', health: 74, friendly: 78, color: 'grey'}
+    { name: 'Pikachu', type: './assets/Electric.png', imageUrl: './assets/Pikachu.png', power: 74, damage: 76, attacks: 'Thunder bolt', health: 74, friendly: 78, color1: 'yellow'},
+    { name: 'Rattata', type: './assets/Normal.png', imageUrl: './assets/Rattata.png', power: 74, damage: 76, attacks: 'Drain', health: 74, friendly: 78, color: 'grey'}
   ];
 }
