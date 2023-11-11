@@ -63,3 +63,12 @@ img{
 .pokemon-card-container.grey .background{
   background: linear-gradient(to right, #858383, #5d5252);
 }
+.pokemon-card-container.red{
+  background-color: #FF9800;
+}
+.pokemon-card-container.red .content{
+  background-color: #dfa866;
+}
+.pokemon-card-container.red .background{
+  background: linear-gradient(to right, #935e10, #5f3800);
+}
