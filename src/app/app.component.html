@@ -3,7 +3,9 @@
   <img class="logoPokedex" src="./assets/PokedexLogo.png" alt="Logo Pokedex">
 </header>
 
-<div *ngFor="let pokemon of pokemonList">
-  <app-pokemon-card [pokemon]="pokemon"></app-pokemon-card>
+<div class="main-pokedex">
+  <div *ngFor="let pokemon of pokemonList">
+    <app-pokemon-card [pokemon]="pokemon"></app-pokemon-card>
+  </div>
 </div>
 

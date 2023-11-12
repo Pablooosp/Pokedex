@@ -5,5 +5,9 @@
   justify-content: center;
 }
 .logoPokedex{
-  width: 200px;
+  width: 300px;
+}
+.main-pokedex{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }

@@ -21,3 +21,4 @@ describe('PokemonCardComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
