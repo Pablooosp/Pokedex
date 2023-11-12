@@ -1,5 +1,12 @@
 
+.hole-page{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 
+}
+.fondo-pokemon{
+  background-image: url("../assets/container_bg.png");
+}
 .cabecera{
   display: flex;
   justify-content: center;
@@ -10,4 +17,5 @@
 .main-pokedex{
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  background-color: white;
 }

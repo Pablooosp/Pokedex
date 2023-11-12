@@ -1,11 +1,22 @@
 
-<header class="cabecera">
-  <img class="logoPokedex" src="./assets/PokedexLogo.png" alt="Logo Pokedex">
-</header>
+<div class="hole-page">
+  <div class="fondo-pokemon">
 
-<div class="main-pokedex">
-  <div *ngFor="let pokemon of pokemonList">
-    <app-pokemon-card [pokemon]="pokemon"></app-pokemon-card>
+  </div>
+  <div style="grid-column: span 2 / span 2;">
+    <header class="cabecera">
+      <img class="logoPokedex" src="./assets/PokedexLogo.png" alt="Logo Pokedex">
+    </header>
+    
+    <div class="main-pokedex">
+      <div *ngFor="let pokemon of pokemonList">
+        <app-pokemon-card [pokemon]="pokemon"></app-pokemon-card>
+      </div>
+    </div>
+  </div>
+  <div class="fondo-pokemon">
+
   </div>
 </div>
+
 

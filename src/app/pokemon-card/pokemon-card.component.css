@@ -13,9 +13,10 @@
   margin-top: 20px;
   
 }
-img{
+.imagen{
   width: 150px;
   height: 150px;
+  transition: transform 0.3s ease-in-out;
 }
 .content{
   background-color: #ffe9b3;
@@ -46,6 +47,9 @@ img{
   text-align: center;
   position: relative;
   top: -60px;
+}
+.pokemon-card-container:hover .imagen{
+  transform: scale(1.2);
 }
 .name-type{
   display: flex;
@@ -82,4 +86,22 @@ img{
 }
 .pokemon-card-container.blue .background{
   background: linear-gradient(to right, #619db7, #226987);
+}
+.pokemon-card-container.pink{
+  background-color: #ffb4de;
+}
+.pokemon-card-container.pink .content{
+  background-color: #f7cfd3;
+}
+.pokemon-card-container.pink .background{
+  background: linear-gradient(to right, #bb8f9d, #a97681);
+}
+.pokemon-card-container.green{
+  background-color: #82ff76;
+}
+.pokemon-card-container.green .content{
+  background-color: #d5ef87;
+}
+.pokemon-card-container.green .background{
+  background: linear-gradient(to right, #536b2a, #428728);
 }
